@@ -30,14 +30,14 @@
 				<div class="post-content clearfix" id="post-<?php the_ID(); ?>" style="border-bottom:1px solid #ccc;">
 					<h3><a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title_attribute(); ?></a></h3>
 					
-					<?php if ( get_settings( 'show_thumb' ) || get_post_meta($post->ID, 'Image', true) ) { $img_url = get_post_meta($post->ID, 'Image', true); ?>
+					<?php if ( get_option( 'show_thumb' ) || get_post_meta($post->ID, 'Image', true) ) { $img_url = get_post_meta($post->ID, 'Image', true); ?>
 					<div class="post-thumbnail">
-						<?php if ( get_settings( 'thumb_resizer' ) ) { ?>
+						<?php if ( get_option( 'thumb_resizer' ) ) { ?>
 						<?php show_thumb('thumb_width', 'thumb_height'); ?>
 						<?php } elseif ((strpos($img_url,'wp-content') == 0) && file_exists($img_url)) { ?>
-						<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="<?php echo get_settings( 'thumb_width' ); ?>" height="<?php echo get_settings( 'thumb_height' ); ?>" src="<?php echo get_bloginfo('wpurl') . '/' . $img_url; ?>" alt="<?php the_title_attribute(); ?>" /></a>
+						<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="<?php echo get_option( 'thumb_width' ); ?>" height="<?php echo get_option( 'thumb_height' ); ?>" src="<?php echo get_bloginfo('wpurl') . '/' . $img_url; ?>" alt="<?php the_title_attribute(); ?>" /></a>
 						<?php } else { ?>
-						<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="<?php echo get_settings( 'thumb_width' ); ?>" height="<?php echo get_settings( 'thumb_height' ); ?>" src="<?php echo $img_url; ?>" alt="<?php the_title_attribute(); ?>" /></a>	
+						<a href="<?php the_permalink(); ?>" rel="bookmark"><img width="<?php echo get_option( 'thumb_width' ); ?>" height="<?php echo get_option( 'thumb_height' ); ?>" src="<?php echo $img_url; ?>" alt="<?php the_title_attribute(); ?>" /></a>	
 						<?php } ?>
 					</div>
 					<?php } ?>
@@ -67,7 +67,7 @@
 <div id="contentright">
 	<div id="sidebar1">
 		
-		<?php if (get_settings("show_subscribe")) include (TEMPLATEPATH . '/subscribe-form.php'); ?>
+		<?php if (get_option("show_subscribe")) include (TEMPLATEPATH . '/subscribe-form.php'); ?>
 		<ul>
 		<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
 			<?php include (TEMPLATEPATH . '/sidebar-1.php'); ?>

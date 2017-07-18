@@ -112,7 +112,7 @@ function bm_themePage() {
 	<?php 
 
 		bm_th( __("Show Featured Post?","vn-news") );
-		bm_input( "show_feature", "checkbox", "", "1", get_settings( 'show_feature' ) );
+		bm_input( "show_feature", "checkbox", "", "1", get_option( 'show_feature' ) );
 		bm_cth();
 		
 		$bm_categories = get_categories('hide_empty=1');
@@ -121,31 +121,31 @@ function bm_themePage() {
 		}
 
 		bm_th( __("Featured Category:","vn-news") );
-		bm_select( "feature_cat", $bm_cat, get_settings( "feature_cat" ), "","" );
+		bm_select( "feature_cat", $bm_cat, get_option( "feature_cat" ), "","" );
 		bm_cth();
 
 		bm_th( __("Quantity of Featured Posts:","vn-news") );
-		bm_input( "feature_count", "text", __("Default: 5 entries, Maximum: 20 entries","vn-news"), get_settings( "feature_count" ),"","","40px" );
+		bm_input( "feature_count", "text", __("Default: 5 entries, Maximum: 20 entries","vn-news"), get_option( "feature_count" ),"","","40px" );
 		bm_cth();
 
 		bm_th( __("Show Thumbnails?","vn-news") );
-		bm_input( "show_featured_thumb", "checkbox", "", "1", get_settings( 'show_featured_thumb' ) );
+		bm_input( "show_featured_thumb", "checkbox", "", "1", get_option( 'show_featured_thumb' ) );
 		bm_cth();
 		
 		bm_th( __("Thumbnail Width (px):","vn-news") );
-		bm_input( "featured_thumb_width", "text", __("Enter the width of thumbnails (default: 220)","vn-news"), get_settings( "featured_thumb_width" ),"","","40px" );
+		bm_input( "featured_thumb_width", "text", __("Enter the width of thumbnails (default: 220)","vn-news"), get_option( "featured_thumb_width" ),"","","40px" );
 		bm_cth();
 
 		bm_th( __("Thumbnail Height (px):","vn-news") );
-		bm_input( "featured_thumb_height", "text", __("Enter the height of thumbnails (default: 220)","vn-news"), get_settings( "featured_thumb_height" ),"","","40px" );
+		bm_input( "featured_thumb_height", "text", __("Enter the height of thumbnails (default: 220)","vn-news"), get_option( "featured_thumb_height" ),"","","40px" );
 		bm_cth();
 		
 		bm_th( __("Headline Categories:","vn-news") );
-		bm_multiSelect( "home_cat[]", $bm_cat, get_settings( "home_cat" ), "", __("Hold down <strong>Ctrl</strong> key to select multiple categories.","vn-news") );
+		bm_multiSelect( "home_cat[]", $bm_cat, get_option( "home_cat" ), "", __("Hold down <strong>Ctrl</strong> key to select multiple categories.","vn-news") );
 		bm_cth();
 
 		bm_th( __("Summary Posts:","vn-news") );
-		bm_input( "home_cat_count", "text", __("Default: 3 entries","vn-news"), get_settings( "home_cat_count" ),"","","40px" );
+		bm_input( "home_cat_count", "text", __("Default: 3 entries","vn-news"), get_option( "home_cat_count" ),"","","40px" );
 		bm_cth();
 		
 	?>
@@ -168,7 +168,7 @@ function bm_themePage() {
 		closedir( $logo_dir );
 		
 		bm_th( __("Site Logo:","vn-news") );
-		bm_select( "site_logo", $logos, get_settings( "site_logo" ), "",__('To setup a logo, you may upload an image to "VN-News/images/logo/" and select it above.','vn-news') );
+		bm_select( "site_logo", $logos, get_option( "site_logo" ), "",__('To setup a logo, you may upload an image to "VN-News/images/logo/" and select it above.','vn-news') );
 		bm_cth();
 		
 		$lang_dir = opendir( TEMPLATEPATH . "/languages/" );
@@ -182,22 +182,22 @@ function bm_themePage() {
 		closedir( $lang_dir );
 		
 		bm_th( __("Language:","vn-news") );
-		bm_select( "site_lang", $langs, get_settings( "site_lang" ), "",__('Select language for the theme, your MO files are located in "VN-News/languages/"','vn-news') );
+		bm_select( "site_lang", $langs, get_option( "site_lang" ), "",__('Select language for the theme, your MO files are located in "VN-News/languages/"','vn-news') );
 		bm_cth();		
 
 		$pos[] = array("left",__("Left","vn-news"));
 		$pos[] = array("right",__("Right","vn-news"));
 		
 		bm_th( __("Sidebar #1 Position:","vn-news") );
-		bm_select( "sidebar_1_pos", $pos, get_settings( "sidebar_1_pos" ), "","" );
+		bm_select( "sidebar_1_pos", $pos, get_option( "sidebar_1_pos" ), "","" );
 		bm_cth();
 		
 		bm_th( __("Header Insert:","vn-news") );
-		bm_input( "header_insert", "textarea", __('Enter your custom XHTML or JavaScript here to have it inserted automatically into your site (within &lt;head&gt;&lt;/head&gt;).','vn-news'), get_settings( "header_insert" ) );
+		bm_input( "header_insert", "textarea", __('Enter your custom XHTML or JavaScript here to have it inserted automatically into your site (within &lt;head&gt;&lt;/head&gt;).','vn-news'), get_option( "header_insert" ) );
 		bm_cth();
 		
 		bm_th( __("Footer Insert:","vn-news") );
-		bm_input( "footer_insert", "textarea", __('Enter your custom XHTML or JavaScript here to have it inserted automatically into your site (before &lt;/body&gt;).','vn-news'), get_settings( "footer_insert" ) );
+		bm_input( "footer_insert", "textarea", __('Enter your custom XHTML or JavaScript here to have it inserted automatically into your site (before &lt;/body&gt;).','vn-news'), get_option( "footer_insert" ) );
 		bm_cth();
 		
 	?>
@@ -208,19 +208,19 @@ function bm_themePage() {
 	<?php 
 
 		bm_th( __("Show Thumbnails?","vn-news") );
-		bm_input( "show_thumb", "checkbox", "", "1", get_settings( 'show_thumb' ) );
+		bm_input( "show_thumb", "checkbox", "", "1", get_option( 'show_thumb' ) );
 		bm_cth();
 		
 		bm_th( __("Thumbnail Width (px):","vn-news") );
-		bm_input( "thumb_width", "text", __("Enter the width of thumbnails (default: 100)","vn-news"), get_settings( "thumb_width" ),"","","40px" );
+		bm_input( "thumb_width", "text", __("Enter the width of thumbnails (default: 100)","vn-news"), get_option( "thumb_width" ),"","","40px" );
 		bm_cth();
 
 		bm_th( __("Thumbnail Height (px):","vn-news") );
-		bm_input( "thumb_height", "text", __("Enter the height of thumbnails (default: 100)","vn-news"), get_settings( "thumb_height" ),"","","40px" );
+		bm_input( "thumb_height", "text", __("Enter the height of thumbnails (default: 100)","vn-news"), get_option( "thumb_height" ),"","","40px" );
 		bm_cth();
 		
 		bm_th( __("Enable Thumbnail Resizer?","vn-news") );
-		bm_input( "thumb_resizer", "checkbox", '<br />' . __("Important: your server must support GD library before using this option.","vn-news"), "1", get_settings( 'thumb_resizer' ) );
+		bm_input( "thumb_resizer", "checkbox", '<br />' . __("Important: your server must support GD library before using this option.","vn-news"), "1", get_option( 'thumb_resizer' ) );
 		bm_cth();		
 	?>
 	</table>	
@@ -229,19 +229,19 @@ function bm_themePage() {
 	<table width="100%" cellspacing="2" cellpadding="5" class="editform form-table">
 	<?php
 		bm_th( __("Show Subscribe Form?","vn-news") );
-		bm_input( "show_subscribe", "checkbox", "", "1", get_settings( 'show_subscribe' ) );
+		bm_input( "show_subscribe", "checkbox", "", "1", get_option( 'show_subscribe' ) );
 		bm_cth();
 	
 		bm_th( __("FeedBurner URL:","vn-news") );
-		bm_input( "feedburner_URL", "text", __("Enter your FeedBurner URL here.","vn-news") . ' <a href="https://www.feedburner.com/fb/a/addfeed?sourceUrl=' . get_bloginfo('url') . 'target="_blank"><strong>' . __("Register","vn-news") . '</strong></a>' , get_settings( "feedburner_URL" ) );
+		bm_input( "feedburner_URL", "text", __("Enter your FeedBurner URL here.","vn-news") . ' <a href="https://www.feedburner.com/fb/a/addfeed?sourceUrl=' . get_bloginfo('url') . 'target="_blank"><strong>' . __("Register","vn-news") . '</strong></a>' , get_option( "feedburner_URL" ) );
 		bm_cth();
 		
 		bm_th( __("Feedburner Comments URL:","vn-news") );
-		bm_input( "feedburner_Comments", "text", __('Enter your Feedburner Comments URL here.','vn-news') . ' <a href="https://www.feedburner.com/fb/a/addfeed?sourceUrl=' . get_bloginfo('url') . '/wp-commentsrss2.php" target="_blank"><strong>' . __('Register','vn-news') . '</strong></a>', get_settings( "feedburner_Comments" ) );
+		bm_input( "feedburner_Comments", "text", __('Enter your Feedburner Comments URL here.','vn-news') . ' <a href="https://www.feedburner.com/fb/a/addfeed?sourceUrl=' . get_bloginfo('url') . '/wp-commentsrss2.php" target="_blank"><strong>' . __('Register','vn-news') . '</strong></a>', get_option( "feedburner_Comments" ) );
 		bm_cth();
 
 		bm_th( __("FeedBurner ID:","vn-news") );
-		bm_input( "feedburner_ID", "text", __('Enter your Feedburner ID here.','vn-news'), get_settings( "feedburner_ID" ) );
+		bm_input( "feedburner_ID", "text", __('Enter your Feedburner ID here.','vn-news'), get_option( "feedburner_ID" ) );
 		bm_cth();
 	?>
 	</table>

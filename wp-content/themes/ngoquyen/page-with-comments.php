@@ -43,7 +43,7 @@ Template Name: Page with Comments
 <div id="contentright">
 	<div id="sidebar1">
 		
-		<?php if (get_settings("show_subscribe")) include (TEMPLATEPATH . '/subscribe-form.php'); ?>
+		<?php if (get_option("show_subscribe")) include (TEMPLATEPATH . '/subscribe-form.php'); ?>
 		<ul>
 			<?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar(1) ) : else : ?>
 				<?php include (TEMPLATEPATH . '/sidebar-1.php'); ?>
