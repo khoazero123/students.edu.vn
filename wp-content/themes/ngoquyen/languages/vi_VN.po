@@ -1,0 +1,586 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VN-News 1.2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-02-25 14:47+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nguyễn Tuấn <tuannguyen_k@yahoo.com>\n"
+"Language-Team: Tom Riddle <tom_riddlevn@yahoo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Vietnamese\n"
+"X-Poedit-Country: VIET NAM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\wp27\\wp-content\\themes\\VN-News\\\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wp27\\wp-content\\themes\\VN-News\n"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/404.php:8
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:55
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:67
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:61
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/no-sidebar.php:29
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page-with-comments.php:30
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page.php:23
+msgid "404 Page Not Found"
+msgstr "404 Lỗi không tìm thấy trang"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/404.php:12
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:59
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:71
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:65
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/no-sidebar.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page-with-comments.php:34
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page.php:27
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:52
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "Rất tiếc khi phải nói rằng địa chỉ trang web mà bạn đang kiếm không tồn tại."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/404.php:13
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:60
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:72
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:66
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/no-sidebar.php:34
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page-with-comments.php:35
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page.php:28
+msgid "You could try going <a href=\"javascript:history.back()\">&laquo; Back</a> or maybe you can find what your looking for below:"
+msgstr "Bạn có thể <a href=\"javascript:history.back()\">&laquo; Quay lại</a> hoặc dùng ô tìm kiếm dưới đây."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:12
+msgid "Tag archive for"
+msgstr "Duyệt theo từ khóa "
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:14
+msgid "Dayily Archive for"
+msgstr "Duyệt theo ngày"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:16
+msgid "Monthly Archive for"
+msgstr "Duyệt theo tháng"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:18
+msgid "Yearly Archive for"
+msgstr "Duyệt theo năm"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:27
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:40
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:51
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:87
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:28
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:86
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:19
+msgid "F jS, Y"
+msgstr "d-m-Y"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:32
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:44
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:38
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:91
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:24
+msgid "Leave a comment"
+msgstr "Viết phản hồi"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:32
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:44
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:38
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:91
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:24
+msgid "0 Comments &#187;"
+msgstr "0 phản hồi &#187;"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:32
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:44
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:38
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:91
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:24
+msgid "1 Comment &#187;"
+msgstr "1 phản hồi &#187;"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:32
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:44
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:38
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:91
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:24
+msgid "% Comments &#187;"
+msgstr "% phản hồi &#187;"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archive.php:33
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:45
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:39
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:34
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:92
+msgid "Edit"
+msgstr "Chỉnh sửa"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:14
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/category.php:25
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/header.php:94
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/no-sidebar.php:16
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page-with-comments.php:16
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/page.php:10
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:11
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:48
+msgid "Home"
+msgstr "Trang chủ"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:27
+msgid "Categories"
+msgstr "Chuyên mục"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:33
+msgid "Browse By Month"
+msgstr "Duyệt theo tháng"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:39
+msgid "Browse By Year"
+msgstr "Duyệt theo năm"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:46
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/sidebar-1.php:16
+msgid "Popular Tags"
+msgstr "Các từ khóa chính"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:53
+msgid "Most Viewed Posts"
+msgstr "Bài được xem nhiều nhất"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:61
+msgid "Highest Rated Posts"
+msgstr "Bài được bình chọn nhiều nhất"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/archives.php:68
+msgid "Most Recent Posts"
+msgstr "Bài viết mới nhất"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:18
+msgid "About"
+msgstr "Tác giả"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:23
+#, php-format
+msgid "who has written %1$s posts on "
+msgstr "người đã viết %1$s bài viết cho"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:25
+msgid "Email This Author"
+msgstr "Gửi mail cho người viết"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:26
+#, php-format
+msgid "Subscribe to %1$s"
+msgstr "Lấy tin RSS của %1$s"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/author.php:33
+#, php-format
+msgid "Post by %1$s "
+msgstr "Những bài được viết bởi %1$s"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Bài viết này đã bị khóa. Vui lòng nhập mật khẩu để xem các phản hồi."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:34
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:66
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/header.php:89
+msgid "Comments"
+msgstr "Phản hồi"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:44
+msgid "(author)"
+msgstr " "
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:51
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:87
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s vào lúc %2$s"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:51
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:87
+msgid "H:i"
+msgstr "H:i"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:51
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:87
+msgid "[Edit]"
+msgstr "[Chỉnh sửa]"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:67
+msgid "There are no comments for this post."
+msgstr "Bài viết này vẫn chưa có phản hồi."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:76
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:104
+msgid "Trackbacks - Pingbacks"
+msgstr "Trackbacks - Pingbacks"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:105
+msgid "There are no trackbacks for this post."
+msgstr "Bài viết này vẫn chưa có trackback."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:117
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Bạn phải <a href=\"%s\">đăng nhập</a> để có thể viết phản hồi."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:119
+msgid "Leave a Reply"
+msgstr "Viết phản hồi"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:122
+msgid "Logged in as"
+msgstr "Đã đăng nhập với tên"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:122
+msgid "Log out of this account"
+msgstr "Thoát khoải tài khoản này"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:122
+msgid "Logout &raquo;"
+msgstr "Thoát &raquo;"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:124
+msgid "Name"
+msgstr "Họ tên"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:124
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:126
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:134
+msgid "(required)"
+msgstr "(bắt buộc)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:126
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:126
+msgid "will not be published"
+msgstr "(được giấu kín)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:128
+msgid "Website"
+msgstr "Website"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:141
+msgid "Want your picture next to your comment?"
+msgstr "Bạn muốn có ảnh avatar khi viết phản hồi?"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:142
+msgid "Join Gravatar"
+msgstr "Đăng ký Gravatar"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:142
+msgid "and upload your photo, completely free!"
+msgstr "sau đó upload ảnh của bạn lên, hoàn toàn miễn phí!"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:142
+msgid "(opens in new window)"
+msgstr "(mở cửa sổ mới)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/comments.php:144
+msgid "Submit Comment"
+msgstr "Gửi phản hồi"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/footer.php:5
+msgid "Copyright &copy;"
+msgstr "Copyright &copy;"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/footer.php:5
+msgid "Powered by"
+msgstr "Powered by"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:240
+msgid "Settings Saved"
+msgstr "Đã lưu cấu hình"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:241
+msgid "Settings Reset"
+msgstr "Đã khôi phục cấu hình"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:253
+msgid "HomePage Settings"
+msgstr "Trang chủ"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:257
+msgid "Show Featured Post?"
+msgstr "Hiện bài viết nổi bật?"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:266
+msgid "Featured Category:"
+msgstr "Chuyên mục nổi bật:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:270
+msgid "Quantity of Featured Posts:"
+msgstr "Số bài viết nổi bật:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:271
+msgid "Default: 5 entries, Maximum: 20 entries"
+msgstr "Mặc định: 5 bài, tối đa: 20 bài"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:274
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:351
+msgid "Show Thumbnails?"
+msgstr "Hiện ảnh Thumbnail?"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:278
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:355
+msgid "Thumbnail Width (px):"
+msgstr "Chiều dài (px):"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:279
+msgid "Enter the width of thumbnails (default: 220)"
+msgstr "Nhập số đo chiều dài của ảnh thumbnail (mặc định: 220)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:282
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:359
+msgid "Thumbnail Height (px):"
+msgstr "Chiều cao (px):"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:283
+msgid "Enter the height of thumbnails (default: 220)"
+msgstr "Nhập số đo chiều cao của ảnh thumbnail (mặc định: 220)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:286
+msgid "Headline Categories:"
+msgstr "Các chuyên mục khác:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:287
+msgid "Hold down <strong>Ctrl</strong> key to select multiple categories."
+msgstr "Giữ phím <strong>Ctrl</strong> để chọn nhiều chuyên mục."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:290
+msgid "Summary Posts:"
+msgstr "Số bài viết cũ hơn:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:291
+msgid "Default: 3 entries"
+msgstr "Mặc định: 3 bài"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:297
+msgid "Blog Settings"
+msgstr "Blog"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:302
+msgid "None (default)"
+msgstr "Không (mặc định)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:311
+msgid "Site Logo:"
+msgstr "Site Logo:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:312
+msgid "To setup a logo, you may upload an image to \"VN-News/images/logo/\" and select it above."
+msgstr "Để thay đổi logo, bạn hãy upload file ảnh vào thư mục \"VN-News/images/logo/\" rồi chọn ở trên."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:316
+msgid "English (default)"
+msgstr "Tiếng Anh (mặc định)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:325
+msgid "Language:"
+msgstr "Ngôn ngữ:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:326
+msgid "Select language for the theme, your MO files are located in \"VN-News/languages/\""
+msgstr "Chọn ngôn ngữ cho theme, những file MO được đặt trong \"VN-News/languages/\""
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:329
+msgid "Left"
+msgstr "Trái"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:330
+msgid "Right"
+msgstr "Phải"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:332
+msgid "Sidebar #1 Position:"
+msgstr "Vị trí của Sidebar #1:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:336
+msgid "Header Insert:"
+msgstr "Chèn vào Header:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:337
+msgid "Enter your custom XHTML or JavaScript here to have it inserted automatically into your site (within &lt;head&gt;&lt;/head&gt;)."
+msgstr "Nhập code HTML hoặc JavaScript mà bạn muốn chèn chúng vào Header của trang web (bên trong &lt;head&gt;&lt;/head&gt;)."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:340
+msgid "Footer Insert:"
+msgstr "Chèn vào Footer:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:341
+msgid "Enter your custom XHTML or JavaScript here to have it inserted automatically into your site (before &lt;/body&gt;)."
+msgstr "Nhập code HTML hoặc JavaScript mà bạn muốn chèn chúng vào Footer của trang web (trước &lt;/body&gt;)."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:347
+msgid "Thumbnail Settings"
+msgstr "Ảnh Thumbnail"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:356
+msgid "Enter the width of thumbnails (default: 100)"
+msgstr "Nhập số đo chiều dài của ảnh thumbnail (mặc định: 100)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:360
+msgid "Enter the height of thumbnails (default: 100)"
+msgstr "Nhập số đo chiều cao của ảnh thumbnail (mặc định: 100)"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:363
+msgid "Enable Thumbnail Resizer?"
+msgstr "Tự động cắt ảnh thumbnail?"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:364
+msgid "Important: your server must support GD library before using this option."
+msgstr "Chú ý: muốn sử dụng chức năng này thì server của bạn phải hỗ trợ thư viện GD."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:369
+msgid "Feedburner Settings"
+msgstr "Feedburner"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:372
+msgid "Show Subscribe Form?"
+msgstr "Hiện form nhận tin qua email?"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:376
+msgid "FeedBurner URL:"
+msgstr "FeedBurner URL:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:377
+msgid "Enter your FeedBurner URL here."
+msgstr "Nhập địa chỉ feed cho bài viết mà Feedburner cấp cho bạn."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:377
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:381
+msgid "Register"
+msgstr "Đăng ký"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:380
+msgid "Feedburner Comments URL:"
+msgstr "Feedburner URL cho comment:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:381
+msgid "Enter your Feedburner Comments URL here."
+msgstr "Nhập địa chỉ feed cho comment mà Feedburner cấp cho bạn."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:384
+msgid "FeedBurner ID:"
+msgstr "FeedBurner ID:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:385
+msgid "Enter your Feedburner ID here."
+msgstr "Nhập ID do Feedburner cấp cho bạn."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:392
+msgid "Save Settings"
+msgstr "Lưu cấu hình"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:862
+msgid "views"
+msgstr "lượt xem"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/functions.php:866
+msgid "N/A"
+msgstr "N/A"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/header.php:88
+msgid "Subscribe to this blog entries"
+msgstr "Lấy RSS của các bài viết"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/header.php:88
+msgid "Entries"
+msgstr "Bài viết"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/header.php:89
+msgid "Subscribe to this blog comments"
+msgstr "Lấy RSS của các phản hồi"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:110
+#, php-format
+msgid "More from %1$s"
+msgstr "Các bài viết khác của %1$s"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:126
+msgid "Home Page Error!"
+msgstr "Lỗi trang chủ!"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:130
+msgid "You have not selected which Categories will be shown on Home Page."
+msgstr "Bạn chưa chọn chuyên mục nào sẽ hiển thị ngoài trang chủ."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/index.php:131
+msgid "Please select them in WP-Admin -> Appearance -> VN-News Options."
+msgstr "Vui lòng chọn chúng trong WP-Admin -> Appearance -> VN-News Options."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:11
+msgid "Search Results for"
+msgstr "Kết quả tìm kiếm cho"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/search.php:48
+msgid "Search Result: Not Found!"
+msgstr "Kết quả tìm kiếm: Không tìm thấy!"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/searchform.php:3
+msgid "Enter keyword to search..."
+msgstr "Nhập từ cần tìm..."
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/sidebar-1.php:2
+msgid "Recent Posts"
+msgstr "Bài viết mới nhất"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/sidebar-1.php:9
+msgid "Recent Comments"
+msgstr "Phản hồi mới nhất"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/sidebar-2.php:9
+msgid "Archives"
+msgstr "Lưu trữ"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/sidebar-2.php:16
+msgid "Meta"
+msgstr "Meta"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/sidebar-2.php:27
+msgid "Links"
+msgstr "Liên kết"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/single.php:26
+msgid "Pages:"
+msgstr "Trang:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/single.php:29
+msgid "Related Posts:"
+msgstr "Bài viết liên quan:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/single.php:34
+msgid "Tags:"
+msgstr "Từ khóa:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/single.php:58
+msgid "This post was written by:"
+msgstr "Bài này được viết bởi:"
+
+#: D:\xampp\htdocs\wp27\wp-content\themes\VN-News/subscribe-form.php:2
+msgid "Enter your email address:"
+msgstr "Nhập địa chỉ email của bạn:"
+
+#, fuzzy
+#~ msgid "Most Viewed 2"
+#~ msgstr "Bài được xem nhiều nhất"
+
+#, fuzzy
+#~ msgid "Show Views For: "
+#~ msgstr "Hiện form nhận tin qua email?"
+
+#, fuzzy
+#~ msgid "Pages"
+#~ msgstr "Trang:"
+
+#~ msgid ""
+#~ "Select the category that you would like to show in the featured section "
+#~ "on your homepage."
+#~ msgstr "Chọn chuyên mục nổi bật mà bạn muốn hiển thị ngoài trang chủ"

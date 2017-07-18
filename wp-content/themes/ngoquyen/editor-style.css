@@ -1,0 +1,21 @@
+/*
+Theme Name: Vn-News
+Used to style the TinyMCE editor.
+*/
+html .mceContentBody {
+	width:100%;
+	font-family: Arial, "Bitstream Charter", serif;
+	line-height:18px;
+}
+* {
+	font-family: Arial, "Bitstream Charter", serif;
+	color: #333;
+	line-height: 18px;
+}
+
+table,tr,td {
+	border-collapse:collapse;
+	border-color:#333;
+}
+
+th,td{padding:3px 6px;}
